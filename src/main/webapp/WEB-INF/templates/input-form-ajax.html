@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head lang="en">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <script type='text/javascript' src="../../js/jquery-1.10.2.js" th:src="@{js/jquery-1.10.2.js}"></script>
+    <script type='text/javascript' src="../../js/person-ajax-request.js" th:src="@{js/person-ajax-request.js}"></script>
+    <title>Person Input Form with ajax</title>
+</head>
+<body>
+<div>
+    <div>
+        <label for="name" class="title">First Name</label>
+        <input type="text" id="name" name="name" />
+    </div>
+    <div>
+        <label for="age" class="title">Name</label>
+        <input type="text" id="age" name="age" />
+    </div>
+    <div>
+        <button onclick="sendFormData()">Send</button>
+    </div>
+</div>
+</body>
+</html>
